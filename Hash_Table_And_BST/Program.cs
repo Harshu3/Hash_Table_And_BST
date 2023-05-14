@@ -29,6 +29,10 @@ namespace Hash_Table_And_BST
             }
             Console.WriteLine("\nFrequency of words are");
             hashTabe.Display();
+            string s = "avoidable";
+            hashTabe.Remove(s);
+            Console.WriteLine("\nAfter removed a word {0}", s);
+            hashTabe.Display();
         }
     }
 }
