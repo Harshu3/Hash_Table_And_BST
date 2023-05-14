@@ -7,8 +7,8 @@ namespace Hash_Table_And_BST
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Hash Table and Binary Search Tree Program!");
-            Console.WriteLine("Program to find Frequency of Words in a Sentence");
-            string paragraph = "To be or not to be";
+            Console.WriteLine("Program to find Frequency of Words in a Large Paragraph");
+            string paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             Console.WriteLine(paragraph);
             paragraph = paragraph.ToLower();
             CountNumbOfOccurence(paragraph);
